@@ -45,6 +45,7 @@ IsBoardEmpty = (tasks == {})
 Switch = True
 while ((not IsBoardEmpty) and Switch):
     print("print a task and the move (add, rem, ch, Del, Del all, Switch)")
+    print()
     Task, do = input(), input()
     if do == ("add" or "Add"):
         Add_Task(Task)
